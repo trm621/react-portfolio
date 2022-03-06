@@ -21,24 +21,28 @@ body {
   margin: 15px;
   margin-bottom: 90px;
   text-align: right;
+  margin-left: 45px;
 }
 
 .navBar {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 15px;
 }
 
-.navBar ul li {
-  justify-content: space-between;
+li {
+  color:aliceblue;
+  font-size: 30px;
+  padding: 25px;
 }
 
 .header {
   background-image: url('./assets/hero-image.jpg');
   background-size: cover;
-  background-position: 80%;
-  padding: 90px 0 20px 0;
-  display: flex;
+  background-position: 90%;
+  padding: 50px 0 20px 0;
   background-color:dodgerblue;
   display: flex;
   flex-wrap: wrap;
