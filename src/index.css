@@ -4,12 +4,6 @@
   padding: 0;
 }
 
-header {
-  background-color:dodgerblue;
-  display: flex;
-  justify-content:space-around;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -20,12 +14,13 @@ body {
   background-color:midnightblue;
 }
 
-h1 {
+.welcome-banner {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 45px;
   color: floralwhite;
   margin: 15px;
-  padding: 20px;
+  margin-bottom: 90px;
+  text-align: right;
 }
 
 .navBar {
@@ -38,15 +33,15 @@ h1 {
   justify-content: space-between;
 }
 
-.hero {
-  background-image: url('./assets/cover/hero-image.jpg');
+.header {
+  background-image: url('./assets/hero-image.jpg');
   background-size: cover;
   background-position: 80%;
-  padding: 450px 0 20px 0;
+  padding: 90px 0 20px 0;
   display: flex;
-  justify-content: center;
+  background-color:dodgerblue;
+  display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 
