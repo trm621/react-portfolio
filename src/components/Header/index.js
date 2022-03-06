@@ -4,7 +4,7 @@ function Header() {
     return (
 <header>
     <div className="header">
-    <h1 className="welcome-banner">Thomas Maher's Portfolio</h1>
+    <a href="#"><h1 className="welcome-banner">Thomas Maher's Portfolio</h1></a>
     </div>
 </header>
     )

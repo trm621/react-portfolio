@@ -4,7 +4,7 @@ function About() {
     return (
       <section className="my-5">
         <h1 id="about">About Me</h1>
-        <img src={profilePhoto} className="my-2" style={{ width: "100%" }} alt="cover" />
+        <img src="./assets/profile-picture.jpg"/>
         <div className="my-2">
         <p>
             How are you today? My name is Thomas Maher. My friends call me Tom. I love
