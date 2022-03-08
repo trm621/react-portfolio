@@ -43,7 +43,7 @@ function Contact() {
     <section className="contact">
       <h1 data-testid="h1tag">Get in touch with me!</h1>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className="contactWindows">
           <label htmlFor="name">Name: </label>
           <input
             type="text"
@@ -52,7 +52,7 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div>
+        <div className="contactWindows">
           <label htmlFor="email">Email: </label>
           <input
             type="email"

@@ -15,7 +15,7 @@ function Footer() {
             <SocialIcon url="https://github.com/trm621" />
           </li>
           
-            <h6>Copyright Tom Maher 2022</h6>
+            <h5>Copyright Tom Maher 2022</h5>
           
         </ul>
       </footer>
