@@ -40,9 +40,9 @@ function Contact() {
   };
 
   return (
-    <section>
+    <section className="contact">
       <h1 data-testid="h1tag">Get in touch with me!</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name: </label>
           <input
@@ -62,7 +62,7 @@ function Contact() {
           />
         </div>
         <div>
-          <label htmlFor="message">Message:</label>
+          <label className="message" htmlFor="message">Message:</label>
           <textarea
             name="message"
             rows="5"

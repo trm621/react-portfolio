@@ -32,16 +32,27 @@ body {
   margin-top: 15px;
 }
 
-a {
+li {
   color:aliceblue;
   font-size: 30px;
   padding: 25px;
   text-decoration: none;
-  
 }
 
-a:hover {
+.about {
+  color: aliceblue;
+  text-align: center;
+  display: block;
+  margin: 70px 250px 100px;
+  font-size: 40px;
+}
+
+li:hover {
   color: red;
+}
+
+.message {
+  padding: 20px;
 }
 
 .header {
@@ -52,6 +63,41 @@ a:hover {
   background-color:dodgerblue;
   display: flex;
   flex-wrap: wrap;
+}
+
+.contact {
+  text-align: center;
+  color:aliceblue
+}
+
+.footer {
+  display: flex;
+  list-style: none;
+}
+
+textarea {
+  width: 250px;
+  height: 120px;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+form {
+  font-size: 30px;
+  padding: 10px;
+}
+
+input {
+  
+}
+
+h6 {
+    color:aliceblue;
+    font-size: 30px;
+    padding: 25px;
+    text-decoration: none;
+    
 }
 
 
