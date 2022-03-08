@@ -9,7 +9,7 @@ const Page = ({ currentCategory }) => {
     switch (currentCategory.name) {
       case "about":
         return <About></About>;
-      case "portfolio":
+      case "projects":
         return <Project></Project>
 
       case "contact":

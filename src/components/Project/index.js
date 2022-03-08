@@ -25,16 +25,15 @@ function Project({ category }) {
     };
   
     return (
-      <div>
+      <div className="project">
         {isModalOpen && (
           <Modal onClose={toggleModal} currentProject={currentProject} />
         )}
-        <div className="card">
+        <div >
           {currentProjects.map((image, i) => (
-            <img
+            <img className="project-image"
               src={image.imgfile}
               alt={image.name}
-              className="img-thumbnail project"
               onClick={() => toggleModal(image, i)}
               key={image.name}
             />

@@ -11,7 +11,7 @@ function App() {
       description: "none",
     },
     {
-      name: "portfolio",
+      name: "projects",
       description: "none",
     },
     {

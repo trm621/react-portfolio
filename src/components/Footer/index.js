@@ -8,14 +8,14 @@ function Footer() {
     <div>
       <footer>
         <ul className="footer">
-          <li>
+          <h4>
             <SocialIcon url="https://www.linkedin.com/in/thomas-maher-0b3615217/" />
-          </li>
-          <li>
+          </h4>
+          <h4>
             <SocialIcon url="https://github.com/trm621" />
-          </li>
+          </h4>
           
-            <h5>Copyright Tom Maher 2022</h5>
+            <h4>Copyright Tom Maher 2022</h4>
           
         </ul>
       </footer>
