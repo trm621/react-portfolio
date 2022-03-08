@@ -1,27 +1,47 @@
-import React, {useEffect} from 'react'
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Navigation({ currentPage, handlePageChange}) {
+import React, { useEffect } from "react";
+import { capitalizeFirstLetter } from "../../utils/helpers";
+
+function Navigation(props) {
+
+  const {
+    categories = [],
+    setCurrentCategory,
+    contactSelected,
+    currentCategory,
+    setContactSelected,
+  } = props;
+
+  useEffect(() => {
+    document.title = capitalizeFirstLetter(currentCategory.name);
+  }, [currentCategory]);
 
   return (
-    <div>
-    <nav className="col-6 navBar">
-    <a href="#About" onClick={() => handlePageChange('About')}>
-        About Me
-    </a> 
-    <a href="#Projects" onClick={() => handlePageChange('Projects')}>
-        Projects
-    </a> 
-    <a href="#Contact" onClick={() => handlePageChange('Contact')}>
-        Contact Me
-    </a>
-    <a href="#Resume" onClick={() => handlePageChange('Resume')} >
-        Resume
-    </a>
-</nav>
-</div>
+      
+    <nav>
+      <ul className="flex-row navBar">
+        {categories.map((category) => (
+          <li
+            className={`mx-1 ${
+              currentCategory.name === category.name &&
+              !contactSelected &&
+              "navActive"
+            }`}
+            key={category.name}
+          >
+            <span
+              onClick={() => {
+                setCurrentCategory(category);
+                setContactSelected(false);
+              }}
+            >
+              {capitalizeFirstLetter(category.name)}
+            </span>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
-    
 
 export default Navigation;

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-import About from './components/About';
 import Navigation from './components/Navigation';
-import Project from './components/Project';
+import CurrentPage from './components/CurrentPage';
 import Footer from './components/Footer';
 
 function App() {
@@ -29,21 +28,20 @@ function App() {
 
   const [contactSelected, setContactSelected] = useState(false);
   return (
-    <div>
-      <Header/>
+<div>
+      <Header />
       <Navigation
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
-        ></Navigation>
+      ></Navigation>
       <main>
-        <About></About>
+        <CurrentPage currentCategory={currentCategory}></CurrentPage>
       </main>
-      <Footer>
-      </Footer>
-      </div>
+      <Footer />
+    </div>
   );
 }
 

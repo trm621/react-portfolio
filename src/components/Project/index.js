@@ -1,9 +1,48 @@
-import React from 'react'
+import React, { useState } from "react";
+import Modal from "../Modal";
 
-function Project() {
-    <div>
-        
-    </div>
-}
+function Project({ category }) {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [currentProject, setCurrentProject] = useState();
+    // TO DO: Clean up tech used and project descriptions
+    const [projects] = useState([
+      {
+        name: "Beach-Blog",
+        description: "A blog to post about your favorite beaches!",
+        imgfile: require('../../assets/main-project-image.jpg'),
+        link: 'https://evening-retreat-41294.herokuapp.com/',
+        github: 'https://github.com/trm621/uconn-project-two',
+      }
+    ]);
+  
+    const currentProjects = projects.filter(
+      (project) => project.category === category
+    );
+  
+    const toggleModal = (image, i) => {
+      setCurrentProject({ ...image, index: i });
+      setIsModalOpen(!isModalOpen);
+    };
+  
+    return (
+      <div>
+        {isModalOpen && (
+          <Modal onClose={toggleModal} currentProject={currentProject} />
+        )}
+        <div className="card">
+          {currentProjects.map((image, i) => (
+            <img
+              src={image.imgfile}
+              alt={image.name}
+              className="img-thumbnail project"
+              onClick={() => toggleModal(image, i)}
+              key={image.name}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  };
+  
 
-export default Project
+export default Project;
