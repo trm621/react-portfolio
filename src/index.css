@@ -42,7 +42,7 @@ li {
 .about {
   color: aliceblue;
   text-align: center;
-  display: block;
+  display: flex;
   margin: 70px 250px 100px;
   font-size: 40px;
 }
@@ -123,34 +123,19 @@ ol {
   padding: 10px;
 }
 
-.project {
-  background-position: 80%;
-  background-size: 100%;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 380px;
-  font-size: 60px;
-  font-weight: bolder;
-  margin: 50px auto;
-  border: 2px floralwhite solid;
-  border-width: 7px;
-  text-decoration: none;
+.profile-pic {
+  max-width: 250px;
 }
 
-.project-image {
-  background-position: 80%;
-  background-size: 100%;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 380px;
-  font-size: 60px;
-  font-weight: bolder;
-  margin: 50px auto;
-  border: 2px floralwhite solid;
-  border-width: 7px;
-  text-decoration: none;
+.img-thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.card {
+  text-align: -webkit-center;
 }
 
 .technology {
