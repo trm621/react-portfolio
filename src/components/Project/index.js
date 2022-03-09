@@ -44,6 +44,13 @@ function Project({ category }) {
         imgfile: require('../../assets/project-image-6.jpg'),
         link: 'https://github.com/trm621/readme-buddy',
         github: 'https://github.com/trm621/readme-buddy',
+      },
+      {
+        name: "Social Media Backend",
+        description: "A fully functioning back-end for a social media platform.",
+        imgfile: require('../../assets/project-image-8.png'),
+        link: 'https://drive.google.com/file/d/1MuStxK9iuNjOXKDGQ_wu6186ACuk0QBy/view',
+        github: 'https://github.com/trm621/nosql-social-media'
       }
     ]);
   
