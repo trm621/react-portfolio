@@ -184,3 +184,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media screen and (max-width: 749px) {
+
+  body {
+      width: fit-content;
+  }
+  header nav ul li a {
+      font-size: 35px;
+  }
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-pic {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+  header {
+      display: block;
+      font-size: 30px;
+      padding: 20px;
+  }
+
+  h1 {
+      text-align: center;
+  }
+
+  header nav {
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 15px;
+  }
+}
+
