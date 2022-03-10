@@ -48,7 +48,7 @@ function Project({ category }) {
       {
         name: "Social Media Backend",
         description: "A fully functioning back-end for a social media platform.",
-        imgfile: require('../../assets/project-image-8.png'),
+        imgfile: require('../../assets/project-image-8.jpg'),
         link: 'https://drive.google.com/file/d/1MuStxK9iuNjOXKDGQ_wu6186ACuk0QBy/view',
         github: 'https://github.com/trm621/nosql-social-media'
       }
@@ -65,8 +65,8 @@ function Project({ category }) {
               <h2>{project.name}</h2>
               <p>{project.description}</p>
               <ul>
-                  <li><a href={project.link}>Check out the project!</a></li>
-                  <li><a href={project.github}>View GitHub Repository</a></li>
+                  <li><a href={project.link}>Click here to check out the project!</a></li>
+                  <li><a href={project.github}>Click here to view the GitHub Repository.</a></li>
               </ul>
           </div>
       )

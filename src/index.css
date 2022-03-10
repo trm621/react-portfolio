@@ -198,6 +198,7 @@ code {
 
   .about {
     font-size: 25px;
+    margin-top: 35px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -233,11 +234,21 @@ code {
   li {
     font-size: 20px;
     padding: 5px;
+    text-decoration: none;
+    color:aliceblue;
   }
 
   footer {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  li:hover {
+    color: red;
+  }
+  
+  li a:hover {
+    color: red;
   }
 
 }
