@@ -112,7 +112,12 @@ button {
   display: flex;
   list-style: none;
   align-items: center;
-  
+  margin-top: 35px;
+}
+
+.blurb {
+  text-align: left;
+  padding: 15px;
 }
 
 textarea {
@@ -230,6 +235,11 @@ code {
     padding: 5px;
   }
 
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -237,7 +247,7 @@ code {
   header {
       display: block;
       font-size: 30px;
-      padding: 20px;
+
   }
 
   h1 {
