@@ -12,8 +12,11 @@ function About() {
         
         <div className="my-2">
         <p className="blurb">
-            How are you today? My name is Thomas Maher. My friends call me Tom. I'm a full stack web developer operating out of Norwalk, CT. I love gaming, watching scary movies, playing Dungeons and Dragons, and making people laugh. See my
-            work in the projects section!
+            How are you today? My name is Thomas Maher. My friends call me Tom. I'm a full stack web developer operating out of Norwalk, CT. 
+            I love gaming, watching scary movies, playing Dungeons and Dragons, and making people laugh. I recently earned a certificate 
+            through the UConn Coding Bootcamp, in which I learned how to implement new technologies on the fly while collaborating and building fun projects.
+            Through my experience, I gained valuable skills as a MERN stack developer.
+             See my work in the projects section!
         </p>
         </div>
         </div>

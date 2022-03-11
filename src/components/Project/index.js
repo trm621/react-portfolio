@@ -42,7 +42,7 @@ function Project({ category }) {
         name: "ReadMe Generator",
         description: "A node application used to generate a professional ReadMe file.",
         imgfile: require('../../assets/project-image-6.jpg'),
-        link: 'https://github.com/trm621/readme-buddy',
+        link: 'https://drive.google.com/file/d/16rbgJeUkvjxtn3FyfM9znjDt2WeErmDd/view?usp=sharing',
         github: 'https://github.com/trm621/readme-buddy',
       },
       {
@@ -65,8 +65,8 @@ function Project({ category }) {
               <img src={project.imgfile} alt={project.name} className="img-thumbnail"/>
               <p>{project.description}</p>
               <ul>
-                  <li><a href={project.link}>Click here to check out the project!</a></li>
-                  <li><a href={project.github}>Click here to view the GitHub Repository.</a></li>
+                  <li className="linkText"><a href={project.link}>Click here to check out the project!</a></li>
+                  <li className="linkText"><a href={project.github}>Click here to view the GitHub Repository.</a></li>
               </ul>
           </div>
       )
