@@ -8,10 +8,12 @@ function Resume() {
                 <h6 className="technology">HTML</h6>
                 <h6 className="technology">CSS</h6>
                 <h6 className="technology">JavaScript</h6>
-                <h6 className="technology">Node.js</h6>
-                <h6 className="technology">Express.js</h6>
+                <h6 className="technology">First/Third-Party APIs</h6>
+                <h6 className="technology">Object Oriented Programming</h6>
                 <h6 className="technology">Mongoose</h6>
                 <h6 className="technology">MongoDB</h6>
+                <h6 className="technology">Express.js</h6>
+                <h6 className="technology">Node.js</h6>
                 <h6 className="technology">React</h6>
                 <h6 className="technology">MySQL</h6>
                 <h6 className="technology">NoSQL</h6>
