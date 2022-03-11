@@ -61,8 +61,8 @@ function Project({ category }) {
     function buildProject(project) {
       return (
           <div className="card">
-              <img src={project.imgfile} alt={project.name} className="img-thumbnail"/>
               <h2>{project.name}</h2>
+              <img src={project.imgfile} alt={project.name} className="img-thumbnail"/>
               <p>{project.description}</p>
               <ul>
                   <li><a href={project.link}>Click here to check out the project!</a></li>
