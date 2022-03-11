@@ -219,7 +219,8 @@ code {
   .profile-pic {
     max-width: 60%;
     align-self: center;
-  }
+    margin-left:0px;
+    }
 
   .img-thumbnail {
     display: flex;
