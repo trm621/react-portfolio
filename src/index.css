@@ -200,6 +200,10 @@ code {
       width: fit-content;
   }
 
+  .welcome-banner {
+    text-align: left;
+  }
+
   .about {
     font-size: 25px;
     margin-top: 35px;
@@ -266,7 +270,10 @@ code {
   header {
       display: block;
       font-size: 30px;
+  }
 
+  .welcome-banner {
+    text-align: left;
   }
 
   h1 {
