@@ -236,7 +236,8 @@ code {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   li {
@@ -285,7 +286,8 @@ code {
   header nav {
       display: flex;
       justify-content: space-evenly;
-      margin-bottom: 15px;
+      margin-bottom: 25px;
+      margin-top:25px;
   }
 
   a:link {
