@@ -8,7 +8,7 @@ function Resume() {
                 <h6 className="technology">HTML</h6>
                 <h6 className="technology">CSS</h6>
                 <h6 className="technology">JavaScript</h6>
-                <h6 className="technology">Web/Third-Party/Server APIs</h6>
+                <h6 className="technology">Third-Party/Server-Side APIs</h6>
                 <h6 className="technology">Object Oriented Programming</h6>
                 <h6 className="technology">Mongoose</h6>
                 <h6 className="technology">MongoDB</h6>
