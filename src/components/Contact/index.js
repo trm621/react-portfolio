@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import emailjs from "emailjs-com";
 
 function Contact() {
   const [formState, setFormState] = useState({
@@ -15,6 +16,14 @@ function Contact() {
     e.preventDefault();
     if (!errorMessage) {
       console.log("Submit Form", formState);
+    }
+    else {
+      emailjs.sendForm('gmail', 'template_kw752fn', e.target, '7SZc6Kj_-uQJKODBz')
+      .then((result) => {
+          window.location.reload()
+      }, (error) => {
+          console.log(error.text);
+      });
     }
   };
 
