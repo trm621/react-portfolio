@@ -1,4 +1,5 @@
 import React from 'react';
+import respdf from '../../assets/ThomasMaherResume.pdf'
 
 function Resume() {
     return (
@@ -20,6 +21,7 @@ function Resume() {
                 <h6 className="technology">NoSQL</h6>
 
             </ol>
+            <h1 className="resume"><a href= {respdf} target="_blank" rel="noreferrer"> Click to download my resume!</a></h1>
         </div>
     )
 };
