@@ -19,14 +19,14 @@ function Project({ category }) {
       },
       {
         name: "Binge Buddy",
-        description: "A website built to help find the perfect dinner/movie pairing for movie night!",
+        description: "A website built to help find the perfect dinner/movie pairing for movie night! Utilizes third party APIs to draw upon recent films and recipes.",
         imgfile: require('../../assets/project-image-1.jpg'),
         link: 'https://trm621.github.io/movie-night-generator/',
         github: 'https://github.com/trm621/movie-night-generator',
       },
       {
         name: "Password Generator",
-        description: "A simple application to generate a strong password.",
+        description: "A simple application used to generate a strong password with arrays.",
         imgfile: require('../../assets/project-image-5.png'),
         link: 'https://trm621.github.io/password-generator/',
         github: 'https://github.com/trm621/password-generator',
@@ -40,7 +40,7 @@ function Project({ category }) {
       },
       {
         name: "ReadMe Generator",
-        description: "A node application used to generate a professional ReadMe file.",
+        description: "A Node application used to generate a professional ReadMe file.",
         imgfile: require('../../assets/project-image-6.jpg'),
         link: 'https://drive.google.com/file/d/16rbgJeUkvjxtn3FyfM9znjDt2WeErmDd/view?usp=sharing',
         github: 'https://github.com/trm621/readme-buddy',
@@ -65,8 +65,8 @@ function Project({ category }) {
               <img src={project.imgfile} alt={project.name} className="img-thumbnail"/>
               <p>{project.description}</p>
               <ul>
-                  <li className="linkText"><a href={project.link}>Click here to check out the project!</a></li>
-                  <li className="linkText"><a href={project.github}>Click here to view the GitHub Repository.</a></li>
+                  <li className="linkText" ><a href={project.link} target="_blank">Click here to check out the project!</a></li>
+                  <li className="linkText"><a href={project.github} target="_blank">Click here to view the GitHub Repository.</a></li>
               </ul>
           </div>
       )
