@@ -19,7 +19,7 @@ function Project({ category }) {
       },
       {
         name: "Binge Buddy",
-        description: "A website built to help find the perfect dinner/movie pairing for movie night! Utilizes third party APIs to draw upon recent films and recipes.",
+        description: "A website built to help find the perfect dinner/movie pairing for movie night! Utilizes third party APIs to find recent films and recipes.",
         imgfile: require('../../assets/project-image-1.jpg'),
         link: 'https://trm621.github.io/movie-night-generator/',
         github: 'https://github.com/trm621/movie-night-generator',
@@ -32,8 +32,8 @@ function Project({ category }) {
         github: 'https://github.com/trm621/password-generator',
       },
       {
-        name: "Bugdet Tracker",
-        description: "An application to help manage your budget and spending",
+        name: "Budget Tracker",
+        description: "An application that utilizes service workers and MongoDB to help manage your budget and spending.",
         imgfile: require('../../assets/project-image-7.png'),
         link: 'https://fathomless-reaches-87217.herokuapp.com/',
         github: 'https://github.com/trm621/budget-tracker',
