@@ -8,7 +8,7 @@ function Project({ category }) {
         description: "A social media platfrom to share your experiences at national parks with others from around the world!",
         imgfile: require('../../assets/project-image-4.jpg'),
         link: 'https://pacific-shelf-58337.herokuapp.com/',
-        github: 'https://github.com/trm621/uconn-project-two',
+        github: 'https://github.com/trm621/national-park-social-app',
       },
       {
         name: "Beach Blog",
