@@ -5,10 +5,11 @@ function Resume() {
     return (
         <div>
             <ol className="proficiencies">
-                Proficient In:
+                Technical Skills:
                 <h6 className="technology">HTML</h6>
                 <h6 className="technology">CSS</h6>
                 <h6 className="technology">JavaScript</h6>
+                <h6 className="technology">Ruby on Rails</h6>
                 <h6 className="technology">Third-Party/Server-Side APIs</h6>
                 <h6 className="technology">Object Oriented Programming</h6>
                 <h6 className="technology">Mongoose</h6>
