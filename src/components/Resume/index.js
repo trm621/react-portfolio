@@ -10,6 +10,7 @@ function Resume() {
                 <h6 className="technology">CSS</h6>
                 <h6 className="technology">JavaScript</h6>
                 <h6 className="technology">Ruby on Rails</h6>
+                <h6 className="technology">Python</h6>
                 <h6 className="technology">Third-Party/Server-Side APIs</h6>
                 <h6 className="technology">Object Oriented Programming</h6>
                 <h6 className="technology">Mongoose</h6>
