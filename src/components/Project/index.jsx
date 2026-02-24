@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function Project({ category }) {
-    const [currentProject, setCurrentProject] = useState();
     const [projects] = useState([
       {
         name: "Trail Talk",
